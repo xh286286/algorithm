@@ -1,0 +1,6 @@
+Case #1: 1541
+Case #2: 1068
+Case #3: 1203
+Case #4: 132
+Case #5: 1242
+Case #6: Looks Good To Me

@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "codejam", "codejam\codejam.vcproj", "{0C91EAC9-899E-49BC-8FC9-B20172F43998}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "codejam2", "codejam2\codejam2.vcproj", "{ADCDA872-D4BD-4056-B59A-6BD61B4D68FF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "codejam3", "codejam3\codejam3.vcproj", "{05A09DAC-1C32-4CF7-BD2B-9F0926737006}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "codejam4", "codejam4\codejam4.vcproj", "{929DF03D-C79E-4B72-B9B3-7A8DE4148A7A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "poj", "poj\poj.vcproj", "{13E125AE-E3F8-4D3C-8AA4-39BC3B92A4E6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "astar", "astar\astar.vcproj", "{CB4F998D-6F28-4B85-BF44-25536130B5E9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tool", "tool\tool.vcproj", "{7A7B24F3-806A-408E-BA6E-92FD1272D2FE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "topcoder", "topcoder\topcoder.vcproj", "{D202E175-FC48-4F05-AF4F-0C5AAE7F8923}"
+EndProject
+Global
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0C91EAC9-899E-49BC-8FC9-B20172F43998}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0C91EAC9-899E-49BC-8FC9-B20172F43998}.Debug|Win32.Build.0 = Debug|Win32
+		{0C91EAC9-899E-49BC-8FC9-B20172F43998}.Release|Win32.ActiveCfg = Release|Win32
+		{0C91EAC9-899E-49BC-8FC9-B20172F43998}.Release|Win32.Build.0 = Release|Win32
+		{ADCDA872-D4BD-4056-B59A-6BD61B4D68FF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{ADCDA872-D4BD-4056-B59A-6BD61B4D68FF}.Debug|Win32.Build.0 = Debug|Win32
+		{ADCDA872-D4BD-4056-B59A-6BD61B4D68FF}.Release|Win32.ActiveCfg = Release|Win32
+		{ADCDA872-D4BD-4056-B59A-6BD61B4D68FF}.Release|Win32.Build.0 = Release|Win32
+		{05A09DAC-1C32-4CF7-BD2B-9F0926737006}.Debug|Win32.ActiveCfg = Debug|Win32
+		{05A09DAC-1C32-4CF7-BD2B-9F0926737006}.Debug|Win32.Build.0 = Debug|Win32
+		{05A09DAC-1C32-4CF7-BD2B-9F0926737006}.Release|Win32.ActiveCfg = Release|Win32
+		{05A09DAC-1C32-4CF7-BD2B-9F0926737006}.Release|Win32.Build.0 = Release|Win32
+		{929DF03D-C79E-4B72-B9B3-7A8DE4148A7A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{929DF03D-C79E-4B72-B9B3-7A8DE4148A7A}.Debug|Win32.Build.0 = Debug|Win32
+		{929DF03D-C79E-4B72-B9B3-7A8DE4148A7A}.Release|Win32.ActiveCfg = Release|Win32
+		{929DF03D-C79E-4B72-B9B3-7A8DE4148A7A}.Release|Win32.Build.0 = Release|Win32
+		{13E125AE-E3F8-4D3C-8AA4-39BC3B92A4E6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{13E125AE-E3F8-4D3C-8AA4-39BC3B92A4E6}.Debug|Win32.Build.0 = Debug|Win32
+		{13E125AE-E3F8-4D3C-8AA4-39BC3B92A4E6}.Release|Win32.ActiveCfg = Release|Win32
+		{13E125AE-E3F8-4D3C-8AA4-39BC3B92A4E6}.Release|Win32.Build.0 = Release|Win32
+		{CB4F998D-6F28-4B85-BF44-25536130B5E9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CB4F998D-6F28-4B85-BF44-25536130B5E9}.Debug|Win32.Build.0 = Debug|Win32
+		{CB4F998D-6F28-4B85-BF44-25536130B5E9}.Release|Win32.ActiveCfg = Release|Win32
+		{CB4F998D-6F28-4B85-BF44-25536130B5E9}.Release|Win32.Build.0 = Release|Win32
+		{7A7B24F3-806A-408E-BA6E-92FD1272D2FE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7A7B24F3-806A-408E-BA6E-92FD1272D2FE}.Debug|Win32.Build.0 = Debug|Win32
+		{7A7B24F3-806A-408E-BA6E-92FD1272D2FE}.Release|Win32.ActiveCfg = Release|Win32
+		{7A7B24F3-806A-408E-BA6E-92FD1272D2FE}.Release|Win32.Build.0 = Release|Win32
+		{D202E175-FC48-4F05-AF4F-0C5AAE7F8923}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D202E175-FC48-4F05-AF4F-0C5AAE7F8923}.Debug|Win32.Build.0 = Debug|Win32
+		{D202E175-FC48-4F05-AF4F-0C5AAE7F8923}.Release|Win32.ActiveCfg = Release|Win32
+		{D202E175-FC48-4F05-AF4F-0C5AAE7F8923}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

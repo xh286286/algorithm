@@ -1,0 +1,141 @@
+#include <iostream>
+#include <algorithm>
+#include <cmath>
+#include <cassert>
+#include <string>
+#include <vector>
+using namespace std;
+
+typedef vector<int> vecint;
+typedef vector<string> vecstr;
+typedef long long int lli;
+
+
+class CandyOnDisk {
+public:
+	struct Points{
+		long double l,r;
+	};
+	struct Band{
+		vector<Points> gaps;
+		vector<Points> candi;
+		long double radius;
+		long double x,y;
+		bool addOne(Points a) {
+			if (a.l>radius) return false;
+			if (a.r>radius) a.r = radius;
+			for (int i=0; i<gaps.size(); i++) {
+				if (gaps[i].l<=a.l && gaps[i].r>=a.r) return false;
+			}
+			candi.push_back(a);
+			vector<Points>  n;
+			for (int i=0; i<gaps.size(); i++) {
+				if (gaps[i].r< a.l) {
+					n.push_back(gaps[i]);
+					continue;
+				}
+				if (gaps[i].l >a.r) {
+					n.push_back(a);
+					while(i<gaps.size()) {
+						n.push_back(gaps[i]);
+						i++;
+					}
+					gaps = n;
+					return true;
+				}
+				if (gaps[i].l < a.l) a.l = gaps[i].l;
+				if (gaps[i].r > a.r) a.r = gaps[i].r;
+			}
+			n.push_back(a);
+			gaps = n;
+			return true;
+		}
+		
+	};
+	long double dis(long double x1, long double y1, long double x2, long double y2) {
+		return sqrt((x1-x2)*(x1-x2) + (y1-y2)*(y1-y2));
+	}
+	string ableToAchieve(vector <int> x, vector <int> y, vector <int> r, int sx, int sy, int tx, int ty){
+		if (sx==tx && sy==ty) return "YES";
+		int n = x.size();
+		vector<Band> di;
+		di.resize(n);
+		for (int i=0; i<n; i++) {
+			di[i].x = x[i];
+			di[i].y = y[i];
+			di[i].radius = r[i];
+			Points p;
+			p.l = dis(sx,sy,x[i],y[i]);
+			p.r= p.l;
+			di[i].addOne(p);
+		}
+		while(true) {
+			int t =-1;
+			for (int i=0; i<n; i++) {
+				if (di[i].candi.size()>0) {
+					t = i; 
+					break;
+				}
+			}
+			if (t<0) break;
+			Points b = di[t].candi.back();
+			di[t].candi.pop_back();
+			for (int i=0; i<n; i++) {
+				if (i==t) continue;
+				long double f = dis(x[i],y[i],x[t],y[t]);
+				long double z[4];
+				z[0] = b.l+f;
+				z[1] = abs(f-b.l);
+				z[2] = b.r+f;
+				z[3] = abs(f-b.r);
+				sort(z,z+4);
+				if (b.l<=f && b.r>=f) z[0] = 0;
+				Points c;
+				c.l= z[0];
+				c.r= z[3];
+				di[i].addOne(c);
+			}
+		}
+		for (int i=0; i<n; i++) {
+			Points p;
+			p.l = dis(tx,ty,x[i],y[i]);
+			if (p.l>di[i].radius) continue;
+			p.r= p.l;
+			if (!di[i].addOne(p)) return "YES";
+		}
+		return "NO";
+	}
+};
+
+int main() {
+	//typedef TeamContest TTT;
+	//	TeamContest a;
+
+
+	CandyOnDisk a;
+	int z[9] ={5, 7, 3, 5, 7, 3, 5, 7, 3};
+	vector <int> x ;
+	for (int i=0; i<9; i++) {
+		x.push_back(z[i]);
+	}
+	//x.push_back(3);
+	//x.push_back(5);
+	vector <int> y ;
+	y.push_back(1);
+	y.push_back(3);
+	y.push_back(5);
+
+	string as[50] = 	{};
+	vecstr sss;
+	for (int i=0; i<50; i++) sss.push_back(as[i]);
+
+	//{{0}, {0}, {1000000000}, 700000000, 700000000, 699999999, 700000001}
+
+	vector <int> i1,i2,i3;
+	i1.push_back(0);
+	i2.push_back(0);
+	i3.push_back(1000000000);
+
+	string u = a.ableToAchieve(i1,i2,i3,700000000, 700000000, 699999999, 700000001);
+	return 0;
+}

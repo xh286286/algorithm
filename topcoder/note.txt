@@ -1,0 +1,31 @@
+#include <vector>
+#include <list>
+#include <map>
+#include <set>
+#include <deque>
+#include <queue>
+#include <stack>
+#include <bitset>
+#include <algorithm>
+#include <functional>
+#include <numeric>
+#include <utility>
+#include <sstream>
+#include <iostream>
+#include <iomanip>
+#include <cstdio>
+#include <cmath>
+#include <cstdlib>
+#include <ctime>
+#include <cstring>
+using namespace std;
+#define SIZE(vn) vn.size()
+const long long modulo = 1000000007;
+#define SET0(zn) memset(zn,0,sizeof(zn))
+#define SET(zn, k) memset(zn,k,sizeof(zn))
+#define REP(i,n)  for (int i=0; i<(n); ++i)
+typedef long long LL;
+
+
+static const int direct4[4][2] ={ {1,0}, {0,1}, {-1,0}, {0,-1} };
+static const int direct8[8][2] ={ {1,0}, {1,1}, {0,1}, {-1,1}, {-1,0}, {-1,-1}, {0,-1}, {1,-1} };
