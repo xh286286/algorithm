@@ -14,9 +14,17 @@
 				"buffer_size": 5240,
 				"line_ending": "Windows"
 			}
+		},
+		{
+			"file": "memory.txt",
+			"settings":
+			{
+				"buffer_size": 128,
+				"line_ending": "Windows"
+			}
 		}
 	],
-	"build_system": "",
+	"build_system": "Packages/C++/C++.sublime-build",
 	"command_palette":
 	{
 		"height": 334.0,
@@ -81,7 +89,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -96,8 +104,8 @@
 						"selection":
 						[
 							[
-								597,
-								597
+								252,
+								252
 							]
 						],
 						"settings":
@@ -106,7 +114,33 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 4465.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "memory.txt",
+					"settings":
+					{
+						"buffer_size": 128,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								128,
+								128
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -145,6 +179,10 @@
 		]
 	},
 	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 290.0
+	},
 	"replace":
 	{
 		"height": 0.0
