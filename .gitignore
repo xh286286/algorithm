@@ -17,3 +17,9 @@
 *.pdb
 *.obj
 *.idb
+*.manifest
+*.idb
+*.pdb
+*.htm
+*.obj
+*.dep

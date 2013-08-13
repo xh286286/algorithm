@@ -3,6 +3,42 @@
 	{
 		"selected_items":
 		[
+			[
+				"ro",
+				"roomW"
+			],
+			[
+				"do",
+				"doorG"
+			],
+			[
+				"r",
+				"roomR"
+			],
+			[
+				"re",
+				"redKey"
+			],
+			[
+				"rom",
+				"roomR"
+			],
+			[
+				"_dor",
+				"_doorG"
+			],
+			[
+				"door",
+				"doorG"
+			],
+			[
+				"inc",
+				"include"
+			],
+			[
+				"dire",
+				"direct"
+			]
 		]
 	},
 	"buffers":
@@ -11,15 +47,23 @@
 			"file": "main.cpp",
 			"settings":
 			{
-				"buffer_size": 5240,
+				"buffer_size": 2443,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "memory.txt",
+			"file": "q.txt",
 			"settings":
 			{
-				"buffer_size": 128,
+				"buffer_size": 1016,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "note.txt",
+			"settings":
+			{
+				"buffer_size": 762,
 				"line_ending": "Windows"
 			}
 		}
@@ -27,7 +71,7 @@
 	"build_system": "Packages/C++/C++.sublime-build",
 	"command_palette":
 	{
-		"height": 334.0,
+		"height": 392.0,
 		"selected_items":
 		[
 			[
@@ -35,7 +79,7 @@
 				"Snippet: Anonymous Function"
 			]
 		],
-		"width": 416.0
+		"width": 392.0
 	},
 	"console":
 	{
@@ -52,6 +96,8 @@
 	},
 	"file_history":
 	[
+		"/D/project/algorithm/topcoder/java/plugin-javadocs.jar",
+		"/D/project/algorithm/topcoder/memory.txt",
 		"/C/Users/Administrator/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
 		"/D/用户目录/Documents/temp/storyline.js"
 	],
@@ -71,6 +117,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"==",
+			"			",
+			"f",
+			"test",
 			"m"
 		],
 		"highlight": true,
@@ -89,7 +139,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -97,15 +147,15 @@
 					"file": "main.cpp",
 					"settings":
 					{
-						"buffer_size": 5240,
+						"buffer_size": 2443,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								252,
-								252
+								2199,
+								2199
 							]
 						],
 						"settings":
@@ -114,25 +164,51 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1197.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "memory.txt",
+					"file": "q.txt",
 					"settings":
 					{
-						"buffer_size": 128,
+						"buffer_size": 1016,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								128,
-								128
+								1016,
+								1016
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 374.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "note.txt",
+					"settings":
+					{
+						"buffer_size": 762,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								596,
+								362
 							]
 						],
 						"settings":
@@ -193,6 +269,10 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"",
+				"main.cpp"
+			]
 		],
 		"width": 0.0
 	},
