@@ -4,6 +4,26 @@
 		"selected_items":
 		[
 			[
+				"find",
+				"findstats"
+			],
+			[
+				"fin",
+				"findstats"
+			],
+			[
+				"fi",
+				"field"
+			],
+			[
+				"tr",
+				"treestats"
+			],
+			[
+				"tree",
+				"treeheight"
+			],
+			[
 				"ro",
 				"roomW"
 			],
@@ -47,7 +67,7 @@
 			"file": "main.cpp",
 			"settings":
 			{
-				"buffer_size": 2443,
+				"buffer_size": 3546,
 				"line_ending": "Windows"
 			}
 		},
@@ -64,6 +84,14 @@
 			"settings":
 			{
 				"buffer_size": 762,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "main.html",
+			"settings":
+			{
+				"buffer_size": 10518,
 				"line_ending": "Windows"
 			}
 		}
@@ -96,8 +124,9 @@
 	},
 	"file_history":
 	[
-		"/D/project/algorithm/topcoder/java/plugin-javadocs.jar",
 		"/D/project/algorithm/topcoder/memory.txt",
+		"/D/project/algorithm/topcoder/problem.cpp",
+		"/D/project/algorithm/topcoder/java/plugin-javadocs.jar",
 		"/C/Users/Administrator/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
 		"/D/用户目录/Documents/temp/storyline.js"
 	],
@@ -147,15 +176,15 @@
 					"file": "main.cpp",
 					"settings":
 					{
-						"buffer_size": 2443,
+						"buffer_size": 3546,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2199,
-								2199
+								3546,
+								3546
 							]
 						],
 						"settings":
@@ -164,7 +193,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1197.0,
+						"translation.y": 465.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -190,7 +219,7 @@
 							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 374.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -207,8 +236,8 @@
 						"selection":
 						[
 							[
-								596,
-								362
+								711,
+								711
 							]
 						],
 						"settings":
@@ -216,7 +245,33 @@
 							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 263.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "main.html",
+					"settings":
+					{
+						"buffer_size": 10518,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2473,
+								2481
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 399.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
