@@ -26,6 +26,8 @@ const long long modulo = 1000000007;
 #define REP(i,n)  for (int i=0; i<(n); ++i)
 typedef long long LL;
 
+template <class T> void refreshMin(T & a, const T & b) {if (a>b) a = b;}
+template <class T> void refreshMax(T & a, const T & b) {if (a<b) a = b;}
 
 static const int direct4[4][2] ={ {1,0}, {0,1}, {-1,0}, {0,-1} };
 static const int direct8[8][2] ={ {1,0}, {1,1}, {0,1}, {-1,1}, {-1,0}, {-1,-1}, {0,-1}, {1,-1} };

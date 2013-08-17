@@ -20,6 +20,12 @@ void mmultiSelf(T &a, T b) {
 	a = (long long(a)*b)%modulo;
 }
 
+long long getGCD(long long x, long long y){
+    return ((x == 0) ? y : getGCD(y%x, x));
+}
+long long getLCM(long long x, long long y) {
+    return y * (x / getGCD(x,y) );
+}
 long long euclidGCD(long long a, long long b) {
 	while (b>0) {
 		long long c = a % b;
