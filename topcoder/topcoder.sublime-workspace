@@ -4,16 +4,60 @@
 		"selected_items":
 		[
 			[
+				"size",
+				"size()	size()"
+			],
+			[
+				"si",
+				"sizeof"
+			],
+			[
+				"v",
+				"visited"
+			],
+			[
+				"re",
+				"refreshMax"
+			],
+			[
 				"find",
-				"findstats"
+				"findNimPair"
+			],
+			[
+				"fi",
+				"first"
+			],
+			[
+				"in",
+				"moduloInverse"
+			],
+			[
+				"add",
+				"addResult"
+			],
+			[
+				"for",
+				"forv	Vector For Loop"
+			],
+			[
+				"get",
+				"getResult"
+			],
+			[
+				"pu",
+				"push_back"
+			],
+			[
+				"d",
+				"do	Do While Loop"
+			],
+			[
+				"ve",
+				"vector	std::vector"
 			],
 			[
 				"fin",
 				"findstats"
-			],
-			[
-				"fi",
-				"field"
 			],
 			[
 				"tr",
@@ -34,10 +78,6 @@
 			[
 				"r",
 				"roomR"
-			],
-			[
-				"re",
-				"redKey"
 			],
 			[
 				"rom",
@@ -67,15 +107,7 @@
 			"file": "main.cpp",
 			"settings":
 			{
-				"buffer_size": 3546,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "q.txt",
-			"settings":
-			{
-				"buffer_size": 1016,
+				"buffer_size": 3336,
 				"line_ending": "Windows"
 			}
 		},
@@ -83,15 +115,23 @@
 			"file": "note.txt",
 			"settings":
 			{
-				"buffer_size": 762,
+				"buffer_size": 927,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "main.html",
+			"file": "main.txt",
 			"settings":
 			{
-				"buffer_size": 10518,
+				"buffer_size": 2236,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "main.cpp.bak",
+			"settings":
+			{
+				"buffer_size": 3456,
 				"line_ending": "Windows"
 			}
 		}
@@ -124,7 +164,34 @@
 	},
 	"file_history":
 	[
+		"/D/project/algorithm/topcoder/main1.cpp",
+		"/D/project/algorithm/topcoder/main2.cpp",
+		"/D/project/algorithm/topcoder/main3.cpp",
+		"/D/project/algorithm/topcoder/main.txt",
+		"/D/project/algorithm/topcoder/note.txt",
 		"/D/project/algorithm/topcoder/memory.txt",
+		"/D/project/algorithm/tool/number_theory.cpp",
+		"/D/project/algorithm/tool/Circumcircle.cpp",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/D/project/algorithm/topcoder/main5.cpp",
+		"/D/project/storyline/backup.js",
+		"/D/用户目录/Documents/temp/test.html",
+		"/D/project/algorithm/tool/percom.cpp",
+		"/D/project/algorithm/tool/big power.cpp",
+		"/D/project/algorithm/tool/big power",
+		"/D/project/algorithm/topcoder/backup.cpp",
+		"/D/project/algorithm/topcoder/main.html",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 2/Packages/C++/size.sublime-snippet",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 2/Packages/C++/template-typename-..-(template).sublime-snippet",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 2/Packages/C++/do...while-loop-(do).sublime-snippet",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 2/Packages/C++/std-vector-(v).sublime-snippet",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 2/Packages/C++/continue.sublime-snippet",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 2/Packages/C++/break.sublime-snippet",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 2/Packages/C++/if-..-(if).sublime-snippet",
+		"/D/project/algorithm/topcoder/q.txt",
+		"/D/project/algorithm/topcoder/main.cpp.bak",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 2/Packages/User/C++.sublime-settings",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 2/Packages/User/Distraction Free.sublime-settings",
 		"/D/project/algorithm/topcoder/problem.cpp",
 		"/D/project/algorithm/topcoder/java/plugin-javadocs.jar",
 		"/C/Users/Administrator/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
@@ -146,6 +213,17 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"z",
+			"</i> </",
+			"li.*div>",
+			"y",
+			"z[i].insert(e-r);",
+			"set",
+			"solve",
+			"base",
+			"\nint getIndex(int a, int b) {\n",
+			"ts",
+			"or",
 			"==",
 			"			",
 			"f",
@@ -155,9 +233,12 @@
 		"highlight": true,
 		"in_selection": false,
 		"preserve_case": false,
-		"regex": false,
+		"regex": true,
 		"replace_history":
 		[
+			"",
+			"z[i].insert(abs(e-r));",
+			"set<int>"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -176,15 +257,15 @@
 					"file": "main.cpp",
 					"settings":
 					{
-						"buffer_size": 3546,
+						"buffer_size": 3336,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3546,
-								3546
+								3336,
+								3336
 							]
 						],
 						"settings":
@@ -193,25 +274,25 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 465.0,
+						"translation.y": 1140.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "q.txt",
+					"file": "note.txt",
 					"settings":
 					{
-						"buffer_size": 1016,
+						"buffer_size": 927,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1016,
-								1016
+								325,
+								325
 							]
 						],
 						"settings":
@@ -219,25 +300,25 @@
 							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 57.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "note.txt",
+					"file": "main.txt",
 					"settings":
 					{
-						"buffer_size": 762,
+						"buffer_size": 2236,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								711,
-								711
+								2155,
+								2155
 							]
 						],
 						"settings":
@@ -245,33 +326,34 @@
 							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 263.0,
+						"translation.y": 1710.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 3,
-					"file": "main.html",
+					"file": "main.cpp.bak",
 					"settings":
 					{
-						"buffer_size": 10518,
+						"buffer_size": 3456,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2473,
-								2481
+								0,
+								3456
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 399.0,
+						"translation.y": 1083.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -285,7 +367,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 35.0
 	},
 	"layout":
 	{
@@ -316,7 +398,7 @@
 	},
 	"replace":
 	{
-		"height": 0.0
+		"height": 64.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -338,7 +420,7 @@
 		[
 			[
 				"",
-				"/D/project/storyline/storyline.sublime-project"
+				"/D/project/writing/writing.sublime-project"
 			]
 		],
 		"width": 380.0
